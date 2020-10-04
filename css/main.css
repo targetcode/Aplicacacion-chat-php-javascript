@@ -1,0 +1,68 @@
+
+
+/*--------------------------------------------------------------
+Plantila: crada por Eduardo Nava targetcode.com.ve
+Facebook: https://facebook.com/targetcode.com.ve
+Instagram: https://instagram.com/targetcode
+Youtube: https://www.youtube.com/channel/UCIMXP5Tyf7pG5zHxPDKG_IA?view_as=subscriber
+8.0.1 Normalize
+Styles based on Normalize v8.0.1 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+html{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*=====================================
+=            Stiles globas            =
+=====================================*/
+body{
+	background: #1C2833;
+	overflow-x: hidden;
+}
+
+.container-form{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+@media screen and (max-width: 768px){
+    .container-form{
+        width: 70%;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+}
+
+.form-login{
+    padding: 20px;
+}
+
+.card-pt{
+    margin-top: 50px;
+}
+
+.max-height-card{
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+}
+
+.card .card-content{
+    max-height: 300px;
+    overflow: auto;
+}
+
+.card-input{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
